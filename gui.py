@@ -293,18 +293,18 @@ class MiniQLApp(ctk.CTk):
         if not path:
             return
 
-        # Ruta relativa con barras normales
-        rel = os.path.relpath(path).replace("\\", "/")
-        self._csv_lbl.configure(text=f"📄 {os.path.basename(rel)}")
+        # Ruta absoluta con barras normales (evita problemas de ruta relativa)
+        abs_path = os.path.abspath(path).replace("\\", "/")
+        self._csv_lbl.configure(text=f"📄 {os.path.basename(abs_path)}")
 
         # Reemplaza LOAD existente o antepone uno nuevo
         content = self._editor.get("1.0", "end-1c")
-        new = re.sub(r'LOAD\s+"[^"]*"', f'LOAD "{rel}"', content)
+        new = re.sub(r'LOAD\s+"[^"]*"', f'LOAD "{abs_path}"', content)
         if new == content:          # no había LOAD → anteponer
-            new = f'LOAD "{rel}"\n\n' + content
+            new = f'LOAD "{abs_path}"\n\n' + content
         self._editor.delete("1.0", "end")
         self._editor.insert("end", new)
-        self._log(f"[CSV] Seleccionado: {rel}", "load")
+        self._log(f"[CSV] Seleccionado: {abs_path}", "load")
 
     def _execute(self):
         """Parsea y evalúa el contenido del editor; muestra resultados en tabs."""

@@ -1,0 +1,201 @@
+id,nombre,edad,ciudad,departamento,nivel,experiencia,salario,calificacion,activo
+1,Andrés García,39,Barranquilla,Recursos Humanos,Semi-Senior,4,3809570,4.4,Sí
+2,Mateo López,23,Medellín,Recursos Humanos,Semi-Senior,17,3731262,2.6,Sí
+3,Beatriz Morales,36,Manizales,Legal,Senior,1,5295667,4.5,No
+4,Julián Ramírez,31,Barranquilla,Finanzas,Junior,3,2298382,2.7,Sí
+5,Natalia Salazar,24,Villavicencio,Logística,Manager,4,7596922,2.7,Sí
+6,Ricardo Mendoza,34,Villavicencio,Ventas,Junior,8,2203445,5.0,Sí
+7,Isabel Reyes,39,Manizales,Diseño,Senior,6,4888162,3.4,Sí
+8,Laura Castillo,32,Ibagué,TI,Semi-Senior,6,3584714,3.4,Sí
+9,Paola Vega,25,Barranquilla,Ingeniería,Senior,13,4780746,2.7,Sí
+10,Diego Ortega,53,Pereira,Diseño,Lead,5,6177746,2.8,Sí
+11,Mateo Castro,47,Bucaramanga,Recursos Humanos,Semi-Senior,17,3617488,2.7,Sí
+12,Andrés Sánchez,32,Pasto,Diseño,Lead,20,5966613,3.5,No
+13,Tomás Ramírez,57,Montería,Ingeniería,Director,4,10214825,4.7,Sí
+14,Julián Martínez,40,Pereira,Marketing,Lead,1,6657168,4.7,Sí
+15,Adriana Peña,33,Ibagué,Ventas,Director,10,10169987,3.8,Sí
+16,Miguel Flores,32,Ibagué,Soporte,Junior,20,2239902,3.7,Sí
+17,Ricardo Castro,41,Barranquilla,Ingeniería,Semi-Senior,19,3182582,2.7,No
+18,Laura Peña,56,Pasto,Marketing,Semi-Senior,16,3676510,2.9,No
+19,Diego Suárez,56,Pasto,TI,Director,7,10247581,3.3,Sí
+20,Sara Castro,55,Manizales,Ventas,Semi-Senior,8,3167136,3.3,Sí
+21,Gabriela García,26,Villavicencio,Diseño,Junior,8,1970674,4.8,Sí
+22,Laura Romero,37,Cartagena,Diseño,Lead,7,6465427,2.8,No
+23,Sebastián Salazar,52,Pasto,Operaciones,Semi-Senior,4,3201639,4.1,Sí
+24,Mateo Morales,51,Montería,TI,Junior,4,1963556,3.5,Sí
+25,Isabel Díaz,34,Barranquilla,Soporte,Lead,5,6342374,3.0,No
+26,Sebastián Medina,26,Manizales,Soporte,Junior,2,2583823,5.0,Sí
+27,Pedro Suárez,37,Cali,Operaciones,Lead,16,6124130,4.7,Sí
+28,Valentina Reyes,22,Pereira,Gerencia,Lead,10,6343555,4.2,No
+29,Miguel Torres,40,Barranquilla,Ingeniería,Manager,18,7263918,4.4,Sí
+30,Juan Mendoza,52,Ibagué,Soporte,Semi-Senior,2,3632496,2.7,Sí
+31,Laura Castillo,26,Santa Marta,Recursos Humanos,Lead,4,6497347,3.1,Sí
+32,Pedro Morales,58,Ibagué,Finanzas,Senior,7,5202258,4.3,Sí
+33,Natalia Reyes,30,Santa Marta,Diseño,Senior,15,4831535,4.8,Sí
+34,Ana Jiménez,58,Medellín,Ventas,Manager,7,7730458,3.2,Sí
+35,Laura Castro,37,Bucaramanga,Gerencia,Semi-Senior,15,3669605,4.3,Sí
+36,Felipe Suárez,28,Cali,Gerencia,Junior,4,2678480,3.9,Sí
+37,Daniela Castillo,35,Villavicencio,Finanzas,Semi-Senior,9,3629959,3.7,Sí
+38,Pedro Ortega,49,Montería,Gerencia,Junior,1,2249759,4.4,Sí
+39,Valentina Ríos,50,Ibagué,TI,Lead,18,5910139,2.8,Sí
+40,Beatriz López,45,Cúcuta,Soporte,Semi-Senior,14,3233636,2.6,Sí
+41,María Castro,44,Barranquilla,Diseño,Semi-Senior,4,3470858,4.5,No
+42,Miguel Suárez,37,Montería,Marketing,Semi-Senior,14,3125990,2.9,Sí
+43,Lucía Salazar,37,Cartagena,Marketing,Director,4,9901124,4.7,No
+44,Gabriela Torres,51,Bucaramanga,Gerencia,Semi-Senior,8,3124813,4.2,No
+45,Julián Ramírez,26,Pasto,Gerencia,Senior,17,4919093,4.2,Sí
+46,Carlos Martínez,38,Cali,Legal,Senior,2,4613668,4.0,Sí
+47,Paola Morales,54,Medellín,Operaciones,Manager,7,7467095,2.6,No
+48,Ana Romero,56,Santa Marta,TI,Director,7,9881913,3.6,Sí
+49,Paola Silva,29,Villavicencio,Gerencia,Manager,10,7899287,3.5,No
+50,Daniela Guerrero,30,Barranquilla,Operaciones,Director,13,10210219,4.4,Sí
+51,Felipe Reyes,57,Montería,Ingeniería,Senior,10,4720392,3.6,Sí
+52,Esteban Jiménez,50,Santa Marta,Recursos Humanos,Manager,16,7971711,2.9,Sí
+53,Daniela Romero,43,Medellín,Recursos Humanos,Director,10,9735552,4.5,Sí
+54,Carlos López,37,Manizales,Legal,Junior,15,2334572,4.7,Sí
+55,Catalina Vargas,47,Barranquilla,Marketing,Director,1,10287443,4.7,Sí
+56,Mateo Díaz,33,Pasto,TI,Manager,15,7252657,3.9,Sí
+57,Esteban Sánchez,51,Santa Marta,Soporte,Manager,20,7532711,4.9,No
+58,Adriana Morales,57,Manizales,Marketing,Director,16,9971932,3.1,Sí
+59,Alejandro Peña,55,Manizales,Diseño,Semi-Senior,9,3561239,2.7,Sí
+60,Sebastián Ramírez,43,Bucaramanga,Soporte,Junior,5,2058157,3.1,Sí
+61,Diego Rodríguez,48,Pereira,Finanzas,Manager,15,7635970,2.7,No
+62,Catalina Castro,23,Montería,Legal,Lead,16,5906182,4.9,Sí
+63,Catalina Medina,48,Ibagué,TI,Director,18,10132556,4.7,No
+64,Gabriela Ramírez,49,Manizales,Ingeniería,Lead,11,6601364,4.2,No
+65,Valentina Vega,51,Cali,Legal,Manager,1,7613160,4.0,Sí
+66,Pedro Ortega,49,Cali,Logística,Semi-Senior,2,3372793,3.4,Sí
+67,Esteban Cruz,43,Pasto,Operaciones,Senior,14,4764525,4.6,No
+68,Carlos Ríos,56,Bogotá,Finanzas,Semi-Senior,3,3783414,2.6,Sí
+69,Sebastián Torres,23,Cúcuta,Marketing,Semi-Senior,5,3596564,4.2,Sí
+70,Esteban Ramos,38,Pasto,Finanzas,Semi-Senior,20,3736745,4.9,Sí
+71,Valentina Herrera,28,Cúcuta,Ingeniería,Senior,19,5210250,4.8,No
+72,Javier Ramos,34,Medellín,Legal,Director,8,9606851,4.2,Sí
+73,Andrés Salazar,58,Pasto,Ingeniería,Senior,18,4949186,4.2,Sí
+74,Adriana Ortega,43,Bogotá,Operaciones,Lead,4,6354582,4.9,No
+75,Miguel Morales,33,Villavicencio,Soporte,Director,9,10145830,4.5,No
+76,Esteban Morales,39,Bucaramanga,Recursos Humanos,Junior,9,2372700,3.1,No
+77,Catalina Cruz,23,Manizales,Finanzas,Semi-Senior,16,3322423,3.4,Sí
+78,Julián Ramírez,39,Ibagué,Ingeniería,Manager,7,7289771,3.1,No
+79,Nicolás Guerrero,37,Villavicencio,Logística,Director,16,9969945,4.5,Sí
+80,Daniela Díaz,47,Villavicencio,Recursos Humanos,Senior,19,4886945,3.7,Sí
+81,Mateo Ríos,57,Bucaramanga,Finanzas,Director,15,9784076,3.3,Sí
+82,Andrés Ríos,34,Bucaramanga,Ventas,Director,18,10299213,4.2,Sí
+83,Diego Ríos,52,Cartagena,TI,Manager,17,7825780,3.2,Sí
+84,Camila Herrera,36,Bucaramanga,Marketing,Senior,1,5242411,3.8,Sí
+85,María López,57,Cartagena,TI,Semi-Senior,16,3207570,4.7,Sí
+86,Verónica Vargas,50,Bucaramanga,Marketing,Junior,9,2400935,2.8,Sí
+87,Javier Vargas,26,Cúcuta,Diseño,Director,2,9659097,2.9,Sí
+88,Pedro Díaz,29,Ibagué,Operaciones,Manager,20,7848458,3.1,No
+89,Sara Suárez,50,Cartagena,Legal,Lead,10,6496251,4.1,Sí
+90,Diego Ortega,35,Cartagena,Diseño,Junior,6,2151516,2.9,Sí
+91,Valentina García,48,Manizales,TI,Manager,16,7505407,2.6,Sí
+92,Daniela Ramos,51,Medellín,Diseño,Semi-Senior,9,3755420,4.0,Sí
+93,Mateo Martínez,56,Barranquilla,Diseño,Semi-Senior,9,3249145,2.7,Sí
+94,Felipe Castillo,58,Cartagena,Logística,Junior,15,2622131,3.3,No
+95,Alejandro Romero,56,Manizales,Logística,Junior,20,1941797,4.7,Sí
+96,Natalia García,27,Barranquilla,Diseño,Manager,19,7221753,5.0,Sí
+97,María Peña,33,Manizales,Soporte,Director,15,9791668,3.0,No
+98,Nicolás Rodríguez,52,Bucaramanga,Operaciones,Senior,11,5202685,2.8,Sí
+99,Julián Morales,53,Cartagena,Diseño,Lead,18,5938479,3.6,Sí
+100,Natalia Cruz,29,Pasto,Operaciones,Manager,1,7889606,4.7,No
+101,Lucía López,34,Ibagué,Finanzas,Manager,16,7855788,3.6,Sí
+102,Diego Ramírez,57,Cali,Gerencia,Lead,16,6027324,2.6,Sí
+103,Valentina Herrera,57,Bogotá,Soporte,Lead,3,6135615,5.0,Sí
+104,Esteban Martínez,31,Manizales,TI,Senior,17,5239677,3.2,No
+105,Verónica Díaz,51,Ibagué,Marketing,Lead,7,6528492,3.8,Sí
+106,Laura Ramírez,48,Bucaramanga,Soporte,Senior,1,4796578,4.3,No
+107,Miguel Jiménez,56,Manizales,Finanzas,Senior,18,5299929,3.9,No
+108,Paola Medina,34,Villavicencio,Recursos Humanos,Manager,13,7444907,4.6,No
+109,María Cruz,52,Villavicencio,Operaciones,Lead,5,6419389,4.9,Sí
+110,Adriana Mendoza,43,Montería,Ventas,Lead,4,6451499,4.8,Sí
+111,Miguel Morales,31,Medellín,Logística,Senior,11,5153534,4.2,Sí
+112,Julián Medina,56,Pereira,Finanzas,Director,16,10067296,2.6,Sí
+113,Sebastián Ortega,40,Barranquilla,TI,Junior,14,2003225,4.4,Sí
+114,Sara Gómez,41,Bogotá,Ingeniería,Senior,2,4807618,3.4,No
+115,Miguel Díaz,55,Pereira,Legal,Director,6,9678240,2.9,No
+116,Sebastián Vargas,31,Barranquilla,Logística,Director,9,9981894,3.1,Sí
+117,Esteban Castro,40,Santa Marta,Soporte,Semi-Senior,3,3563187,4.9,Sí
+118,Mateo Ramos,38,Manizales,Gerencia,Semi-Senior,13,3606680,2.8,No
+119,Mariana Mendoza,40,Villavicencio,Gerencia,Junior,13,2187813,2.5,Sí
+120,Nicolás Vega,40,Pasto,Recursos Humanos,Manager,12,7429642,4.1,Sí
+121,Sofía Ortega,28,Santa Marta,Diseño,Junior,10,2362236,2.6,Sí
+122,Sofía Rodríguez,40,Bucaramanga,TI,Lead,6,6110548,2.8,Sí
+123,Tomás Romero,39,Montería,Marketing,Senior,16,4809478,4.4,Sí
+124,Andrés Jiménez,26,Cali,Recursos Humanos,Director,13,10084384,3.4,No
+125,Ana Ramírez,56,Medellín,Logística,Senior,9,5112955,3.5,Sí
+126,Isabel Silva,36,Manizales,Ingeniería,Manager,18,7543939,4.8,Sí
+127,Laura Ortega,51,Villavicencio,Gerencia,Director,14,9622343,2.8,Sí
+128,Felipe Vargas,29,Medellín,Recursos Humanos,Manager,5,7607524,3.6,No
+129,Miguel Castro,48,Santa Marta,Ventas,Lead,20,6327940,4.8,Sí
+130,María Ramos,45,Barranquilla,Logística,Lead,8,6280303,2.7,Sí
+131,Beatriz Castro,44,Bogotá,Operaciones,Senior,7,4628093,4.9,No
+132,Pedro Silva,35,Santa Marta,Diseño,Manager,1,7253035,4.5,Sí
+133,Sofía Salazar,58,Barranquilla,Ventas,Manager,7,7814867,3.0,Sí
+134,Julián Peña,31,Pasto,Legal,Junior,9,2051716,5.0,Sí
+135,Santiago Martínez,23,Cali,Ingeniería,Senior,8,5117457,3.3,Sí
+136,Natalia López,30,Villavicencio,Operaciones,Manager,4,7981886,2.7,No
+137,Ricardo Romero,28,Manizales,Soporte,Semi-Senior,20,3145471,4.3,Sí
+138,Esteban Ortega,23,Bogotá,Logística,Lead,14,6619425,2.8,No
+139,Laura Castro,27,Bucaramanga,Legal,Semi-Senior,3,3232321,3.2,Sí
+140,Catalina Castillo,55,Cartagena,Logística,Manager,20,7651096,2.7,Sí
+141,Diego Morales,50,Barranquilla,Operaciones,Senior,15,4918098,3.5,Sí
+142,Paola Morales,42,Santa Marta,Gerencia,Senior,5,5220184,4.8,Sí
+143,Pedro Vega,27,Medellín,Operaciones,Junior,12,2036435,3.9,Sí
+144,Andrés Morales,44,Montería,Diseño,Lead,2,6201601,4.0,Sí
+145,Isabel Mendoza,54,Barranquilla,Marketing,Director,16,9735137,4.6,Sí
+146,Ricardo Martínez,39,Cúcuta,Recursos Humanos,Lead,18,6551924,4.0,Sí
+147,Alejandro García,33,Cartagena,TI,Senior,11,4868074,2.5,Sí
+148,Javier Rodríguez,31,Villavicencio,Diseño,Junior,3,2682354,3.8,No
+149,Lucía Jiménez,43,Cali,Finanzas,Senior,11,5095164,4.0,Sí
+150,Miguel Gómez,25,Santa Marta,Ventas,Senior,15,5194093,3.6,No
+151,Lucía Ramírez,35,Pasto,Soporte,Junior,12,2350797,2.8,No
+152,Tomás Silva,41,Bogotá,Recursos Humanos,Lead,20,5957443,2.5,Sí
+153,Diego Peña,30,Pasto,Gerencia,Senior,11,4625812,2.5,No
+154,Santiago Sánchez,46,Ibagué,TI,Semi-Senior,17,3685864,4.6,Sí
+155,Laura Reyes,24,Pereira,Ingeniería,Lead,3,6228267,3.9,No
+156,Lucía Herrera,29,Pereira,Ingeniería,Senior,6,5148151,3.7,Sí
+157,Pedro Morales,28,Barranquilla,Operaciones,Manager,13,7749414,2.7,Sí
+158,Julián Díaz,43,Pasto,Marketing,Junior,17,2563984,2.8,Sí
+159,Mariana Flores,31,Barranquilla,Ventas,Semi-Senior,9,3306854,2.9,Sí
+160,Laura Gómez,53,Manizales,Legal,Manager,15,7914220,4.8,Sí
+161,Paola Sánchez,50,Medellín,Logística,Lead,10,6188016,4.0,Sí
+162,Adriana Rodríguez,41,Manizales,Logística,Junior,2,2286649,4.6,Sí
+163,Pedro Castillo,54,Pereira,Logística,Manager,18,7974814,4.7,No
+164,Camila Cruz,52,Ibagué,Marketing,Junior,15,2008529,4.5,Sí
+165,Pedro Romero,33,Bogotá,Recursos Humanos,Director,15,9960767,3.8,Sí
+166,Ricardo Flores,40,Pereira,Operaciones,Senior,20,4554909,4.5,Sí
+167,Laura Cruz,28,Ibagué,Diseño,Lead,10,6164236,4.3,Sí
+168,Julián Rodríguez,31,Bucaramanga,Gerencia,Director,13,9635215,4.0,Sí
+169,Felipe Guerrero,46,Santa Marta,Finanzas,Semi-Senior,17,3197992,4.1,No
+170,Adriana Flores,23,Bucaramanga,Gerencia,Semi-Senior,7,3458332,4.9,No
+171,Camila Díaz,30,Cali,Ventas,Senior,4,5032351,4.4,Sí
+172,Julián Castro,30,Cúcuta,Operaciones,Semi-Senior,6,3289630,4.6,Sí
+173,Sara López,48,Bucaramanga,Diseño,Director,8,9965776,4.0,No
+174,Gabriela Guerrero,37,Cartagena,Logística,Semi-Senior,12,3811256,4.9,No
+175,Esteban Peña,40,Pasto,Operaciones,Manager,17,7638997,4.9,Sí
+176,Sofía Medina,38,Bogotá,Diseño,Lead,12,6481478,4.8,Sí
+177,Daniela Rodríguez,32,Cartagena,Logística,Manager,5,7658723,2.7,Sí
+178,Sara Castro,44,Bogotá,Operaciones,Junior,13,2426392,3.4,No
+179,Pedro Flores,36,Bogotá,Finanzas,Junior,11,2053143,2.8,Sí
+180,Verónica Ramos,30,Pasto,TI,Lead,15,6545239,2.5,Sí
+181,Carlos Ramírez,35,Montería,Marketing,Manager,20,7753408,3.6,Sí
+182,Sebastián Herrera,29,Bogotá,Recursos Humanos,Lead,20,6379318,2.7,No
+183,Beatriz García,54,Cúcuta,Recursos Humanos,Director,5,9805420,3.6,Sí
+184,Sebastián Mendoza,48,Cali,Diseño,Director,3,10048913,4.9,Sí
+185,Tomás Guerrero,54,Pasto,Soporte,Manager,1,7609420,4.7,Sí
+186,Catalina Flores,38,Villavicencio,Ingeniería,Senior,3,4861551,3.1,Sí
+187,Julián Sánchez,24,Bucaramanga,Soporte,Senior,6,5217941,3.7,No
+188,Santiago Salazar,30,Medellín,TI,Lead,2,6207696,3.0,Sí
+189,María Cruz,41,Ibagué,Operaciones,Manager,16,7465618,2.6,Sí
+190,Daniela Flores,25,Montería,Diseño,Senior,9,4630521,4.5,No
+191,Javier Ríos,50,Pereira,Finanzas,Semi-Senior,16,3825686,3.7,Sí
+192,Pedro Ríos,49,Medellín,Operaciones,Manager,6,7771971,3.2,Sí
+193,Pedro Cruz,40,Cartagena,Logística,Manager,14,7374739,4.2,Sí
+194,Sara López,44,Cúcuta,Operaciones,Senior,2,4578686,4.2,No
+195,Ricardo Romero,32,Bogotá,Marketing,Manager,15,7236489,2.8,Sí
+196,Ricardo Flores,46,Cúcuta,Ingeniería,Manager,5,7912048,3.6,Sí
+197,Ricardo Jiménez,26,Cúcuta,Marketing,Manager,12,7617368,3.3,Sí
+198,Sebastián Martínez,23,Villavicencio,Marketing,Lead,17,6305785,4.8,Sí
+199,Natalia Peña,38,Villavicencio,Logística,Semi-Senior,20,3399449,4.2,No
+200,Camila Martínez,30,Montería,Ventas,Lead,6,6648022,3.6,Sí
