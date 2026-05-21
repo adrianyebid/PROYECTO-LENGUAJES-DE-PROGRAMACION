@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python3 --version)",
+      "PowerShell(pip3 show antlr4-python3-runtime 2>$null)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Desktop\\\\lenguajes-programacion\\\\miniQL\" -Force | ForEach-Object { $_.Name })",
+      "PowerShell(cd \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Desktop\\\\lenguajes-programacion\\\\miniQL\"; $env:PYTHONIOENCODING=\"utf-8\"; py -3.10 main.py examples/consulta.mql 2>&1)"
+    ]
+  }
+}

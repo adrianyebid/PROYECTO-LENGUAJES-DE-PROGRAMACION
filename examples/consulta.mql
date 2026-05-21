@@ -1,0 +1,20 @@
+// Ejemplo completo de MiniQL — usa los cuatro comandos del lenguaje
+
+// 1. Cargar el archivo CSV en el contexto de ejecución
+LOAD "examples/datos.csv"
+
+// 2. Seleccionar todas las columnas (sin filtro) y mostrar
+SELECT *
+SHOW
+
+// 3. Filtrar ingenieros con salario mayor a 3,000,000
+SELECT nombre, ciudad, salario WHERE departamento = "Ingeniería" AND salario > 3000000
+SHOW
+
+// 4. Ordenar por salario descendente y mostrar
+SORT BY salario DESC
+SHOW
+
+// 5. Empleados jóvenes (menores de 30) en Bogotá
+SELECT nombre, edad, departamento WHERE edad < 30 AND ciudad = "Bogotá"
+SHOW
