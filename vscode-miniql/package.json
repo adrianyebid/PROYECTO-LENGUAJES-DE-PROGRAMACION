@@ -1,0 +1,42 @@
+{
+  "name": "miniql",
+  "displayName": "MiniQL",
+  "description": "Resaltado de sintaxis y autocompletado para el lenguaje MiniQL (.mql)",
+  "version": "0.1.0",
+  "publisher": "miniql",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "miniql",
+        "aliases": [
+          "MiniQL",
+          "miniql"
+        ],
+        "extensions": [
+          ".mql"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "miniql",
+        "scopeName": "source.miniql",
+        "path": "./syntaxes/miniql.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "miniql",
+        "path": "./snippets/miniql.code-snippets"
+      }
+    ]
+  }
+}

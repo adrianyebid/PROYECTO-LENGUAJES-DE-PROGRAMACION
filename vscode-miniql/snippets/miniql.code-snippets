@@ -1,0 +1,43 @@
+{
+  "Load CSV": {
+    "prefix": "LOAD",
+    "body": ["LOAD \"${1:archivo.csv}\""],
+    "description": "Carga un archivo CSV"
+  },
+  "Select all": {
+    "prefix": "SELECT*",
+    "body": ["SELECT *", "SHOW"],
+    "description": "Selecciona todas las columnas y muestra"
+  },
+  "Select columns": {
+    "prefix": "SELECT",
+    "body": ["SELECT ${1:col1, col2}"],
+    "description": "Selecciona columnas específicas"
+  },
+  "Select with WHERE": {
+    "prefix": "SELECTWHERE",
+    "body": ["SELECT ${1:col1, col2} WHERE ${2:columna} ${3:=} ${4:valor}", "SHOW"],
+    "description": "Selecciona columnas con filtro WHERE"
+  },
+  "Sort by": {
+    "prefix": "SORT",
+    "body": ["SORT BY ${1:columna} ${2|ASC,DESC|}"],
+    "description": "Ordena por una columna"
+  },
+  "Show": {
+    "prefix": "SHOW",
+    "body": ["SHOW"],
+    "description": "Muestra la tabla actual"
+  },
+  "Consulta completa": {
+    "prefix": "consulta",
+    "body": [
+      "LOAD \"${1:examples/datos.csv}\"",
+      "",
+      "SELECT ${2:*} WHERE ${3:columna} ${4:>} ${5:valor}",
+      "SORT BY ${6:columna} ${7|ASC,DESC|}",
+      "SHOW"
+    ],
+    "description": "Plantilla de consulta MiniQL completa"
+  }
+}

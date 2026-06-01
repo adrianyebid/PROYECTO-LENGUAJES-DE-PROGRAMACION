@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "MiniQL",
+  "scopeName": "source.miniql",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#keywords" },
+    { "include": "#operators-logical" },
+    { "include": "#strings" },
+    { "include": "#numbers" },
+    { "include": "#operators-comparison" }
+  ],
+  "repository": {
+    "comments": {
+      "match": "//.*$",
+      "name": "comment.line.double-slash.miniql"
+    },
+    "keywords": {
+      "match": "\\b(LOAD|SELECT|WHERE|SORT|BY|ASC|DESC|SHOW)\\b",
+      "name": "keyword.control.miniql"
+    },
+    "operators-logical": {
+      "match": "\\b(AND|OR|NOT)\\b",
+      "name": "keyword.operator.logical.miniql"
+    },
+    "strings": {
+      "name": "string.quoted.double.miniql",
+      "begin": "\"",
+      "end": "\""
+    },
+    "numbers": {
+      "match": "-?\\b[0-9]+(\\.[0-9]+)?\\b",
+      "name": "constant.numeric.miniql"
+    },
+    "operators-comparison": {
+      "match": "(<=|>=|!=|=|<|>|\\*)",
+      "name": "keyword.operator.comparison.miniql"
+    }
+  }
+}
