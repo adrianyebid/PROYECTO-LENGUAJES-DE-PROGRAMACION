@@ -1,0 +1,54 @@
+=== MiniQL — ejecutando 'examples/consulta.mql' ===
+
+[LOAD] 'examples/datos.csv' — 12 filas, columnas: ['nombre', 'edad', 'ciudad', 'salario', 'departamento']
+
+-- Consulta 1: SELECT * (todas las columnas, sin filtro) --
+
++-----------------+------+--------------+---------+------------------+
+| nombre          | edad | ciudad       | salario | departamento     |
++-----------------+------+--------------+---------+------------------+
+| Ana García      | 28   | Bogotá       | 3500000 | Ingeniería       |
+| Carlos López    | 35   | Medellín     | 4200000 | Ventas           |
+| María Rodríguez | 22   | Cali         | 2800000 | Marketing        |
+| Juan Martínez   | 41   | Bogotá       | 5100000 | Ingeniería       |
+| Laura Sánchez   | 30   | Barranquilla | 3900000 | Recursos Humanos |
+| Pedro Gómez     | 27   | Medellín     | 3100000 | Marketing        |
+| Isabel Torres   | 38   | Bogotá       | 4700000 | Ventas           |
+| Andrés Díaz     | 25   | Cali         | 2600000 | Ingeniería       |
+| Sofía Ramírez   | 33   | Bogotá       | 4400000 | Ingeniería       |
+| Miguel Herrera  | 45   | Medellín     | 5800000 | Gerencia         |
+| Valentina Cruz  | 29   | Barranquilla | 3300000 | Marketing        |
+| Santiago Flores | 31   | Bogotá       | 3700000 | Ventas           |
++-----------------+------+--------------+---------+------------------+
+  12 fila(s)
+
+-- Consulta 2: SELECT nombre, ciudad, salario WHERE departamento = "Ingeniería" AND salario > 3000000 --
+
++---------------+--------+---------+
+| nombre        | ciudad | salario |
++---------------+--------+---------+
+| Ana García    | Bogotá | 3500000 |
+| Juan Martínez | Bogotá | 5100000 |
+| Sofía Ramírez | Bogotá | 4400000 |
++---------------+--------+---------+
+  3 fila(s)
+
+-- Consulta 3: SORT BY salario DESC (sobre los resultados anteriores) --
+
++---------------+--------+---------+
+| nombre        | ciudad | salario |
++---------------+--------+---------+
+| Juan Martínez | Bogotá | 5100000 |
+| Sofía Ramírez | Bogotá | 4400000 |
+| Ana García    | Bogotá | 3500000 |
++---------------+--------+---------+
+  3 fila(s)
+
+-- Consulta 4: SELECT nombre, edad, departamento WHERE edad < 30 AND ciudad = "Bogotá" --
+
++------------+------+--------------+
+| nombre     | edad | departamento |
++------------+------+--------------+
+| Ana García | 28   | Ingeniería   |
++------------+------+--------------+
+  1 fila(s)
