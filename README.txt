@@ -4,7 +4,9 @@ Proyecto Final — Lenguajes de Programacion
 Universidad Nacional de Colombia
 
 Autores:
-  Adrian YR  (adrincon@unal.edu.co)
+  Adrian Rincon   (adrincon@unal.edu.co)
+  Pablo Sandoval  (psandoval@unal.edu.co)
+  John Paez       (jopaeza@unal.edu.co)
 
 Descripcion
 -----------

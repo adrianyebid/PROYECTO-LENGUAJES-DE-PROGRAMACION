@@ -8,6 +8,16 @@ Intérprete de un mini-lenguaje de consultas sobre archivos CSV, construido con 
 
 MiniQL es un lenguaje de consultas minimalista inspirado en SQL. Se define mediante una gramática formal en ANTLR4 que genera automáticamente el analizador léxico y sintáctico. Un visitor recorre el árbol de sintaxis abstracta (AST) y evalúa cada instrucción de forma funcional, usando `filter` y `map` sin bucles imperativos.
 
+## Integrantes
+
+| Nombre | Correo |
+|---|---|
+| Adrian Rincon | adrincon@unal.edu.co |
+| Pablo Sandoval | psandoval@unal.edu.co |
+| John Páez | jopaeza@unal.edu.co |
+
+---
+
 ## Sintaxis
 
 ```sql
